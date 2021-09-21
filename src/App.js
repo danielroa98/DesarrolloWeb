@@ -13,7 +13,6 @@ import MyButton from "./components/MyButton";
 //todo
 import useTodoState from "./functions/useTodoState";
 import TodoForm from "./components/todo/TodoForm";
-// import TodoList from "./components/todo/TodoList";
 
 import Button from "@material-ui/core/Button";
 import Snackbar from "@material-ui/core/Snackbar";
@@ -126,6 +125,7 @@ function App() {
         onHide={() => setShow(false)}
         todos={todos}
         deleteTodo={deleteTodo}
+        _handleClick={(a) => handleClick(a)}
       />
 
       <Snackbar

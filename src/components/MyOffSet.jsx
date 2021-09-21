@@ -8,7 +8,7 @@ export default function MyOffSet(props) {
         <Offcanvas.Title>Offcanvas</Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body>
-        <TodoList todos={props.todos} deleteTodo={props.deleteTodo} />
+        <TodoList props={props} todos={props.todos} deleteTodo={props.deleteTodo} />
       </Offcanvas.Body>
     </Offcanvas>
   );
