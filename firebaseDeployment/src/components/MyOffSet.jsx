@@ -1,4 +1,6 @@
-import { Offcanvas } from "react-bootstrap";
+// import { Offcanvas } from "react-bootstrap";
+import Offcanvas from 'react-bootstrap/Offcanvas'
+//import Offcanvas from 'react-bootstrap/Offcanvas';
 import TodoList from "../components/todo/TodoList";
 
 export default function MyOffSet(props) {

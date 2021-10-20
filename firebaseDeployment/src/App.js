@@ -43,7 +43,7 @@ export default function App(props) {
     <CircularUnderLoad />
   ) : (
     <div className="App">
-      <h1>{currentUser} </h1>
+      {/* <h1>{currentUser} </h1> */}
       <Index
         socialLogin={socialLogin}
         currentUser={currentUser}

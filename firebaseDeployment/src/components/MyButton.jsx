@@ -1,5 +1,5 @@
 import { Badge } from "react-bootstrap";
-import ShoppingCartOutlinedIcon from "@material-ui/icons/ShoppingCartOutlined";
+import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 
 export default function MyButton(params) {
   //   return <button value="miValor" id="miId" onClick={(a) => console.log(a.target.value)}>Hola</button>;

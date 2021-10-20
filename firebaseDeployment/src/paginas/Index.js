@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import Dashboard from "./Dashboard";
+import Main from './Main';
 import Logout from "./Logout";
 import SignUp from "./Signup";
 import Login from "./Login";
@@ -79,7 +81,8 @@ export default function Index(props) {
             exact
             path={"/"}
             render={() => (
-              <Dashboard
+              // <Dashboard
+              <Main
                 firebase={props.firebase}
                 signupSubmit={signupSubmit}
                 history={props.history}
