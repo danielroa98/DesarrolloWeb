@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import SignIn from "./paginas/Login";
 import Index  from "./paginas/Index";
 import utilsFunctions from "./funciones/FirebaseFunctions";
-import Loading from './components/Loading';
+import CircularUnderLoad from './components/CircularUnderLoad';
 
 export default function App(props) {
   //console.log("props-> App");
@@ -40,7 +40,7 @@ export default function App(props) {
 
 
   return currentUser === "cargando" ? (
-    <Loading />
+    <CircularUnderLoad />
   ) : (
     <div className="App">
       <h1>{currentUser} </h1>

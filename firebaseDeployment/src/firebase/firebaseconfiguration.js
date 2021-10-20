@@ -11,6 +11,8 @@ const firebaseConfig = {
   appId: "1:477285145344:web:f5173855e52d28f31cf1e5"
 };
 
+
+
 let instance;
 
 export default function getFirebase() {
